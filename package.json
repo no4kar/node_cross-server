@@ -1,0 +1,25 @@
+{
+  "name": "node_cross-server",
+  "version": "1.0.0",
+  "description": "cross-server",
+  "main": "index.js",
+  "type": "module",
+  "engines": {
+    "node": "18.18.0",
+    "npm": "9.8.1"
+  },
+  "scripts": {
+    "start": "node ./src/index.js",
+    "dev": "nodemon ./src/index.js"
+  },
+  "author": "no4kar",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
